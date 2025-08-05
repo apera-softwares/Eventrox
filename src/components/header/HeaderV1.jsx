@@ -105,7 +105,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                                     <div className="search-box-btn"><span className={`flaticon-search`} onClick={searchOpen}></span></div>
                                 </div>
                                 <div className="btn-box">
-                                    <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link>
+                                    <Link to="#form-section" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link>
                                 </div>
                             </div>
                         </div>

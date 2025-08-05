@@ -4,7 +4,7 @@ import RegisterForm from './RegisterForm';
 const RegisterV1 = () => {
     return (
         <>
-            <section className="register-section">
+            <section id='form-section' className="register-section">
                 <div className="auto-container">
                     <div className="anim-icons full-width">
                         <span className="icon icon-circle-3 wow zoomIn"></span>

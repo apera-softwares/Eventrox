@@ -16,7 +16,7 @@ const ClientV1 = () => {
                 <div className="auto-container">
                     <div className="sec-title">
                         <span className="title">Clients</span>
-                        <h2>Official Sponsors</h2>
+                        <h2>Our Official Sponsors</h2>
                     </div>
                     {ClientV1Data.map(client =>
                         <SingleClientV1 key={client.id} client={client} />

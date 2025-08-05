@@ -32,7 +32,7 @@ const Home1 = () => {
                 <WhyChooseV1 />
                 <ClientV1 />
                 <RegisterV1 />
-                <BlogV1 hasShape={true} />
+                {/* <BlogV1 hasShape={true} /> */}
                 <FooterV1 />
             </div>
         </>

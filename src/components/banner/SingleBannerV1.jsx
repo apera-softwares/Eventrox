@@ -16,7 +16,8 @@ const SingleBannerV1 = ({ banner }) => {
                             <li><span className="icon fa fa-user-alt"></span>{list2}</li>
                             <li><span className="icon fa fa-map-marker-alt"></span>{list3}</li>
                         </ul>
-                        <div className="btn-box"><Link to={`/${btnLink}#`} className="theme-btn btn-style-two"><span className="btn-title">{btnText}</span ></Link></div>
+                        {/* <div className="btn-box"><Link to={`/${btnLink}#`} className="theme-btn btn-style-two"><span className="btn-title">{btnText}</span ></Link></div> */}
+                        <div className="btn-box"><Link to={`#form-section`} className="theme-btn btn-style-two"><span className="btn-title">{btnText}</span ></Link></div>
                     </div>
                 </div>
             </div >

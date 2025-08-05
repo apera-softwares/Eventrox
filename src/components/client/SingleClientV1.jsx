@@ -7,7 +7,7 @@ const SingleClientV1 = ({ client }) => {
     return (
         <>
             <div className="sponsors-outer">
-                <h3>{title}</h3>
+                {/* <h3>{title}</h3> */}
                 <div className="row">
                     {client.clientData.map(thumb =>
                         <div className="client-block col-lg-3 col-md-6 col-sm-12" key={thumb.id}>
