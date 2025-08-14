@@ -9,7 +9,7 @@ const VideoV1 = () => {
     <>
       <section
         className="video-section"
-        style={{ backgroundImage: "url(images/background/1.jpg)" }}
+        style={{ backgroundImage: "url(images/background/conference-hall.jpg)" }}
       >
         <div className="auto-container">
           <div className="content-box">
@@ -22,7 +22,7 @@ const VideoV1 = () => {
               channel="youtube"
               autoplay
               isOpen={isOpen}
-              videoId="BOG_CbEDhag"
+              videoId="ljw0VKu7aV0"
               onClose={() => setOpen(false)}
             />
             <Link className="play-now" onClick={() => setOpen(true)}>

@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
-const SocialShare = () => {
+const SocialShare = (linkedIn) => {
   return (
     <>
       {/* <li>
@@ -17,7 +17,7 @@ const SocialShare = () => {
                 <Link to="http://dribbble.com" target='_blank'><i className="fab fa-dribbble"></i></Link>
             </li> */}
       <li>
-        <Link to="http://linkedin.com" target="_blank">
+        <Link to={linkedIn?.linkdin} target="_blank">
           <i className="fab fa-linkedin"></i>
         </Link>
       </li>

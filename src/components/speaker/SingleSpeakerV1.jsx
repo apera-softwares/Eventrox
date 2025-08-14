@@ -3,7 +3,8 @@ import { HashLink as Link } from 'react-router-hash-link'
 import SocialShare from '../others/SocialShare';
 
 const SingleSpeakerV1 = ({ speaker }) => {
-    const { id, thumb, name, designation } = speaker
+    const { id, thumb, name, designation, linkedIn } = speaker
+
 
     return (
         <>
@@ -16,7 +17,7 @@ const SingleSpeakerV1 = ({ speaker }) => {
                         <h4 className="name"><Link to={`/speakers-detail/${id}#`}>{name}</Link></h4>
                         <span className="designation">{designation}</span>
                         <ul className="social-links social-icon-colored">
-                            <SocialShare />
+                            <SocialShare linkdin={linkedIn}/>
                         </ul>
                     </div>
                 </div>

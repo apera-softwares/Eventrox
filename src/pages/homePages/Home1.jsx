@@ -26,11 +26,11 @@ const Home1 = () => {
         <AboutV1 />
         <FeatureV1 />
         <SpeakerV1 />
-        <FactV1 />
+        {/* <FactV1 /> */}
         <ScheduleV1 />
         {/* <PriceV1 /> */}
         <VideoV1 />
-        <WhyChooseV1 />
+        {/* <WhyChooseV1 /> */}
         <ClientV1 />
         <GalleryV2 />
         {/* <BlogV1 hasShape={true} /> */}

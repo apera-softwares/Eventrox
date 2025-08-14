@@ -92,7 +92,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/images/logo.webp" alt="image" />
+                      <img src="/images/logo-new.png" alt="image" />
                     </Link>
                   </div>
                 </>
@@ -100,7 +100,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/images/logo.webp" alt="image" />
+                      <img src="/logo-new.png" alt="image" />
                     </Link>
                   </div>
                 </>
@@ -108,7 +108,7 @@ const HeaderV1 = ({
             </div>
             <div className="nav-outer clearfix">
               <div className="mobile-nav-toggler" onClick={handleOpenMenu}>
-                <span className="icon flaticon-menu"></span>
+                {/* <span className="icon flaticon-menu"></span> */}
               </div>
               {/* <nav
                 className="main-menu navbar-expand-lg navbar-light border border-primary"
@@ -139,7 +139,7 @@ const HeaderV1 = ({
             </div>
           </div>
         </div>
-        <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
+        {/* <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
           <div className="mobile-menu">
             <div className="menu-backdrop"></div>
             <div className="close-btn">
@@ -151,20 +151,20 @@ const HeaderV1 = ({
                   <img src="/images/logo.webp" alt="image" />
                 </Link>
               </div>
-              {/* <MainMenu
+              <MainMenu
                 toggleMultiMenu={toggleMultiMenu}
                 toggleMenu={toggleMenu}
                 parentMenu={parentMenu}
-              /> */}
+              />
             </nav>
             <div className="close-btn" onClick={handleCloseMenu}>
               <span className="icon flaticon-cancel-music"></span>
             </div>
           </div>
-        </div>
+        </div> */}
       </header>
       <SearchPopup openSearch={openSearch} searchClose={searchClose} />
-      <ColorsPalate />
+      {/* <ColorsPalate /> */}
     </>
   );
 };

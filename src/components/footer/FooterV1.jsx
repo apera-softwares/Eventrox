@@ -18,7 +18,7 @@ const FooterV1 = () => {
                     <div className="footer-widget about-widget">
                       <div className="logo">
                         <Link to="/#">
-                          <img src="/images/logo.webp" alt="image" />
+                          <img src="/images/logo-new.png" alt="image" />
                         </Link>
                       </div>
                       <div className="text">
@@ -31,7 +31,30 @@ const FooterV1 = () => {
                         </p>
                       </div>
                       <ul className="social-icon-one social-icon-colored">
-                        <SocialShare />
+                        <li>
+                          <Link
+                            to="https://www.linkedin.com/company/propel-consult"
+                            target="_blank"
+                          >
+                            <i className="fab fa-linkedin"></i>
+                          </Link>
+                        </li>{" "}
+                        <li>
+                          <Link
+                            to="https://www.instagram.com/propelconsult"
+                            target="_blank"
+                          >
+                            <i className="fab fa-instagram"></i>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="https://www.youtube.com/@propelconsult2425"
+                            target="_blank"
+                          >
+                            <i className="fab fa-youtube"></i>
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -40,14 +63,14 @@ const FooterV1 = () => {
                       <h2 className="widget-title">Useful Links</h2>
                       <ul className="user-links">
                         <li>
-                          <Link to="/about-us#">About Us</Link>
+                          <Link to="#about">About Us</Link>
                         </li>
                         {/* <li><Link to="/services#">Services</Link></li>
                             <li><Link to="/projects#">Projects</Link></li>
                             <li><Link to="/schedule#">Schedule</Link></li>
                             <li><Link to="/blog#">Blogs</Link></li> */}
                         <li>
-                          <Link to="/contact#">Contact Us</Link>
+                          <Link to="#form-section">Contact Us</Link>
                         </li>
                       </ul>
                     </div>
@@ -68,9 +91,7 @@ const FooterV1 = () => {
                           <li>
                             <span className="icon flaticon-phone"></span>
                             <div className="text">
-                              <Link to="tel:+97317382265">
-                                +973 17382265
-                              </Link>
+                              <Link to="tel:+97317382265">+973 17382265</Link>
                             </div>
                           </li>
                           <li>
@@ -84,7 +105,8 @@ const FooterV1 = () => {
                           <li>
                             <span className="icon flaticon-worldwide"></span>
                             <div className="text">
-                              6th Floor, Building 880, <br/> Road 3618, Seef 436, <br/> Manama, Kingdom of Bahrain
+                              6th Floor, Building 880, <br /> Road 3618, Seef
+                              436, <br /> Manama, Kingdom of Bahrain
                             </div>
                           </li>
                         </ul>
@@ -117,12 +139,12 @@ const FooterV1 = () => {
                 <p>
                   &copy; Copyright {new Date().getFullYear()} All Rights
                   Reserved by{" "}
-                  <Link
+                  {/* <Link
                     to="https://themeforest.net/user/expert-themes/portfolio"
                     target="_blank"
                   >
                     Expert-Themes
-                  </Link>
+                  </Link> */}
                 </p>
               </div>
             </div>
