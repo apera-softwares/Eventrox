@@ -128,6 +128,7 @@ const HeaderV1 = ({
                       onClick={searchOpen}
                     ></span>
                   </div>
+
                 </div>
                 <div className="btn-box">
                   <Link to="#form-section" className="theme-btn btn-style-one">
