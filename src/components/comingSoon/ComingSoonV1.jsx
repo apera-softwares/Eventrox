@@ -2,7 +2,7 @@ import React from 'react';
 import TimeV1 from '../counter/TimeV1';
 
 const ComingSoonV1 = () => {
-    const time = new Date("Nov 07 2025")
+    const time = new Date("Nov 26, 2025");
 
     return (
         <>
