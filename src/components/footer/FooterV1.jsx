@@ -18,7 +18,7 @@ const FooterV1 = () => {
                     <div className="footer-widget about-widget">
                       <div className="logo">
                         <Link to="/#">
-                          <img src="/images/logo.png" alt="image" />
+                          <img src="/images/logo.webp" alt="image" />
                         </Link>
                       </div>
                       <div className="text">
@@ -68,31 +68,30 @@ const FooterV1 = () => {
                           <li>
                             <span className="icon flaticon-phone"></span>
                             <div className="text">
-                              <Link to="tel:+1-345-5678-77">
-                                +1-345-5678-77
+                              <Link to="tel:+97317382265">
+                                +973 17382265
                               </Link>
                             </div>
                           </li>
                           <li>
                             <span className="icon flaticon-paper-plane"></span>
                             <div className="text">
-                              <Link to="mailto:support@example.com">
-                                support@example.com
+                              <Link to="mailto:info@propelconsult.com">
+                                info@propelconsult.com
                               </Link>
                             </div>
                           </li>
                           <li>
                             <span className="icon flaticon-worldwide"></span>
                             <div className="text">
-                              13005 Greenville Avenue <br /> California, TX
-                              70240
+                              6th Floor, Building 880, <br/> Road 3618, Seef 436, <br/> Manama, Kingdom of Bahrain
                             </div>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <div className="footer-column col-lg-6 col-md-6 col-sm-12">
+                  {/* <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div className="footer-widget widget-ps-50 instagram-widget">
                       <h2 className="widget-title">Instagram Gallery</h2>
                       <div className="widget-content">
@@ -105,7 +104,7 @@ const FooterV1 = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
