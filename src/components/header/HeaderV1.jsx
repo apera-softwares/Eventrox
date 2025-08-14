@@ -92,7 +92,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/images/logo.png" alt="image" />
+                      <img src="/images/logo.webp" alt="image" />
                     </Link>
                   </div>
                 </>
@@ -100,7 +100,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/images/logo-2.png" alt="image" />
+                      <img src="/images/logo.webp" alt="image" />
                     </Link>
                   </div>
                 </>
@@ -121,7 +121,7 @@ const HeaderV1 = ({
                 </div>
               </nav> */}
               <div className="outer-box d-none d-lg-block ">
-                <div className="search-box-outer">
+                {/* <div className="search-box-outer">
                   <div className="search-box-btn">
                     <span
                       className={`flaticon-search`}
@@ -129,7 +129,7 @@ const HeaderV1 = ({
                     ></span>
                   </div>
 
-                </div>
+                </div> */}
                 <div className="btn-box">
                   <Link to="#form-section" className="theme-btn btn-style-one">
                     <span className="btn-title">Get Tickets</span>
@@ -148,7 +148,7 @@ const HeaderV1 = ({
             <nav className="menu-box">
               <div className="nav-logo">
                 <Link to="/#">
-                  <img src="/images/logo-2.png" alt="image" />
+                  <img src="/images/logo.webp" alt="image" />
                 </Link>
               </div>
               {/* <MainMenu
