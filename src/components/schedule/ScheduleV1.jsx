@@ -125,14 +125,14 @@ const ScheduleV1 = () => {
                             <Link to={`/${block.btnLink}#`}>{block.title}</Link>
                           </h4>
                           <div className="text">{block.text}</div>
-                          <div className="btn-box">
+                          {/* <div className="btn-box">
                             <Link
-                              to={`/${block.btnLink}#`}
+                              to={`#form-section`}
                               className="theme-btn"
                             >
-                              {block.btnText}
+                              Book Now
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
