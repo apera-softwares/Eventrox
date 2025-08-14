@@ -18,7 +18,7 @@ const FooterV1 = () => {
                     <div className="footer-widget about-widget">
                       <div className="logo">
                         <Link to="/#">
-                          <img src="/images/logo.webp" alt="image" />
+                          <img src="/images/logo-new.png" alt="image" />
                         </Link>
                       </div>
                       <div className="text">

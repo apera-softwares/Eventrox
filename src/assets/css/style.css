@@ -313,7 +313,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #ffffff;
 	font-weight: 400;
 	text-align: center;
-	background-color: #ec167f;
+	background-color: #266992BF;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -323,7 +323,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .btn-style-one:hover {
-	color: #ec167f;
+	color: #000;
 	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 	-ms-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
