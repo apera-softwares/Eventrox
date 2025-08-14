@@ -1,10 +1,10 @@
-import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link'
+import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const SocialShare = () => {
-    return (
-        <>
-            <li>
+  return (
+    <>
+      {/* <li>
                 <Link to="http://facebook.com" target='_blank'><i className="fab fa-facebook-f"></i></Link>
             </li>
             <li>
@@ -15,9 +15,14 @@ const SocialShare = () => {
             </li>
             <li>
                 <Link to="http://dribbble.com" target='_blank'><i className="fab fa-dribbble"></i></Link>
-            </li>
-        </>
-    );
+            </li> */}
+      <li>
+        <Link to="http://linkedin.com" target="_blank">
+          <i className="fab fa-linkedin"></i>
+        </Link>
+      </li>
+    </>
+  );
 };
 
 export default SocialShare;

@@ -64,9 +64,9 @@ const BannerV1 = () => {
   };
 
   const settings = {
-    infinite: true,
+    infinite: false,
     autoplay: true,
-    arrows: true,
+    arrows: false,
     slidesToShow: 1,
     speed: 500,
     slidesToScroll: 1,
