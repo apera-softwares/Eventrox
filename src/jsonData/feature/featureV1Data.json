@@ -3,7 +3,7 @@
         "id": 1,
         "icon": "icon flaticon-lecture",
         "title": "Great Speakers",
-        "text": "Dolor sit amet consectetur elit sed do eiusmod tempor incd.",
+        "text": "Hear from inspiring leaders, industry experts, and changemakers sharing insights that spark action.",
         "animation": "fadeInUp",
         "delay": 0
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "icon": "icon flaticon-search",
         "title": "Experience",
-        "text": "Dolor sit amet consectetur elit sed do eiusmod tempor incd.",
+        "text": "Immerse yourself in impactful sessions, hands-on learning, and real-world tools for success.",
         "animation": "fadeInUp",
         "delay": 0
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "icon": "icon flaticon-diamond-1",
         "title": "Networking",
-        "text": "Dolor sit amet consectetur elit sed do eiusmod tempor incd.",
+        "text": "Connect with peers, thought leaders, and innovators to exchange ideas and opportunities.",
         "animation": "fadeInUp",
         "delay": 400
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "icon": "icon flaticon-success",
         "title": "Party",
-        "text": "Dolor sit amet consectetur elit sed do eiusmod tempor incd.",
+        "text": "Celebrate with music, entertainment, and social events designed to make networking fun.",
         "animation": "fadeInUp",
         "delay": 800
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "icon": "icon flaticon-employee",
         "title": "New People",
-        "text": "Dolor sit amet consectetur elit sed do eiusmod tempor incd.",
+        "text": "Meet inspiring professionals from diverse industries and build lasting connections.",
         "animation": "fadeInUp",
         "delay": 1200
     }

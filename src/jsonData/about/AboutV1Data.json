@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "listData": "Multiple Announcements during the event."
+        "listData": "Special mentions and shout-outs throughout the event."
     },
     {
         "id": 2,
-        "listData": "Logo & company details on the WordCamp."
+        "listData": "Your logo and company profile featured on event platforms."
     },
     {
         "id": 3,
-        "listData": "Dedicated blog post thanking each Gold."
+        "listData": "Dedicated blog feature to thank our Gold partners."
     },
     {
         "id": 4,
-        "listData": "Acknowledgment and opening and closing."
+        "listData": "Recognition during both the opening and closing sessions."
     }
 ]

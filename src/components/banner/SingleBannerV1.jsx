@@ -6,7 +6,14 @@ const SingleBannerV1 = ({ banner }) => {
 
     return (
         <>
-            <div className="slide-item" style={{ backgroundImage: `url(images/main-slider/${thumb}` }}>
+            <div
+  className="slide-item"
+  style={{
+    backgroundImage: `url(videos/bannner-video.gif)`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }}
+>
                 <div className="auto-container">
                     <div className="content-box">
                         <span className="title">{subTitle}</span>
