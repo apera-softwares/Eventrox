@@ -33,8 +33,7 @@ function App() {
   }, [])
 
   return (
-    <>
-      {isLoading ? <Preloader /> :
+    <>      
         <div className='app-wrapper'>
           <Helmet>
             <title>Propel Consult</title>
@@ -44,7 +43,7 @@ function App() {
           <ToastContainer />
           <ScrollUpBtn />
         </div>
-      }
+      
     </>
   )
 }

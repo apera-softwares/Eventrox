@@ -21,35 +21,25 @@ const AboutV1 = () => {
             <div className="content-column col-lg-6 col-md-12 col-sm-12">
               <div className="inner-column">
                 <div className="sec-title">
-                  <span className="title">ABOUT EVENT</span>
-                  <h2>Future of Work HR Conference</h2>
+                  {/* <span className="title">ABOUT EVENT</span> */}
+                  <h2>Reimagine Work. Redefine HR.</h2>
                   <div className="text">
-                    Discover bold ideas, real-world tools, and inspiring voices
-                    shaping the future of work. From leadership and HR tech to
-                    skills, DEI, and workplace culture—this is where HR leaders
-                    come to learn, connect, and take action.
+                    The Future of Work HR Conference in Bahrain brings together CHROs, HR Directors, People & Culture Leads, and Talent Decision-Makers. Together, they address the critical challenges and emerging opportunities shaping the future of work, while exploring innovative strategies to redefine the role of HR in a changing world.
                   </div>
                 </div>
-                <ul className="list-style-one">
+                {/* <ul className="list-style-one">
                   {AboutV1Data.map((aboutData) => (
                     <li key={aboutData.id}>{aboutData.listData}</li>
                   ))}
-                </ul>
-                <div className="btn-box">
-                  <Link
-                    to={`#form-section`}
-                    className="theme-btn btn-style-three"
-                  >
-                    <span className="btn-title">Register Now</span>
-                  </Link>
-                </div>
+                </ul> */}
+               
               </div>
             </div>
             <div className="image-column col-lg-6 col-md-12 col-sm-12">
               <div className="image-box">
                 <ReactWOW animation="fadeIn">
                   <figure className="image">
-                    <img src="../images/resource/about-img-1.jpg" alt="image" />
+                    <img src="../images/resource/about-us.jpeg" alt="image" />
                   </figure>
                 </ReactWOW>
               </div>

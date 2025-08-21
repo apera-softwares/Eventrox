@@ -748,7 +748,6 @@ input[type="search"]::-webkit-search-results-decoration {
   position: absolute;
   left: 50%;
   top: 50%;
-  content: "loading..";
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -935,10 +934,10 @@ img {
   );
   background: linear-gradient(
     to left,
-    rgba(247, 0, 104) 0%,
-    rgba(68, 16, 102, 1) 25%,
-    rgba(247, 0, 104, 1) 75%,
-    rgba(68, 16, 102, 1) 100%
+    rgb(247, 181, 0) 0%,
+    rgb(197, 209, 32) 25%,
+    rgb(247, 243, 0) 75%,
+    rgb(96, 102, 16) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#266992BF', endColorstr='#441066', GradientType=1);
   color: transparent;
@@ -955,7 +954,7 @@ img {
   display: inline-block;
   font-size: 48px;
   line-height: 1.2em;
-  color: #1e1f36;
+  color: #266992;
   font-weight: 700;
 }
 
@@ -1038,6 +1037,7 @@ img {
 .main-header .logo-box .logo img {
   display: inline-block;
   max-width: 100%;
+  width: 190px;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
@@ -2661,7 +2661,7 @@ img {
   position: relative;
   z-index: 1;
   border-radius: 50%;
-  border: 15px solid #ffffff;
+  border: 15px solid #e9da11;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -3249,8 +3249,12 @@ img {
   padding: 40px 30px;
   padding-left: 100px;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
-  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+  border: solid 5px;
+  border-right-color: #e6ba2b;
+  border-bottom-color:  #e6ba2b;
+  border-left-color:  #266992;
+  border-top-color:  #266992;
+  box-shadow: 0 30px 40px rgba(54, 51, 16, 0.1);
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -3685,11 +3689,13 @@ img {
 .speaker-block .inner-box {
   position: relative;
   overflow: hidden;
-  border-radius: 50%;
-  border: 10px solid #ffffff;
+  border-radius: 5%;
+  border: 8px solid #dacb7a;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.4);
   max-width: 300px;
   margin: 0 auto;
+  padding: 4px;
+  background-color: white;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -3737,7 +3743,7 @@ img {
   bottom: 0px;
   text-align: center;
   background-color: rgba(28, 139, 210, 0.7);
-  background-color: rgba(237, 23, 127, 0.9);
+  background-color: #266992;
 
   -webkit-transition: -webkit-transform 0.4s ease;
   transition: -webkit-transform 0.4s ease;

@@ -72,7 +72,7 @@ const BannerV1 = () => {
     fetchData();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
+  // if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
 
   const NextArrow = (props) => {

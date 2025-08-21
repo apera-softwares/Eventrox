@@ -51,12 +51,12 @@ const SpeakerV1 = () => {
     <>
       <section
         className="speakers-section"
-        style={{ backgroundImage: "url(images/background/6.jpg)" }}
+        style={{ backgroundImage: "url(images/background/speaker_bg.jpg)" }}
       >
         <div className="auto-container">
           <div className="sec-title light text-center">
-            <span className="title">Speakers</span>
-            <h2>Todays Performers</h2>
+            {/* <span className="title">Speakers</span> */}
+            <h2 className="">Our Past Speakers</h2>
           </div>
           <div className="row">
             {speakersData.map((speaker) => (
