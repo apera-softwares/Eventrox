@@ -8,8 +8,8 @@ const SingleFeatureV1 = ({ feature }) => {
         <>
             <div className="inner-box">
                 <div className="icon-box"><span className={`icon ${icon}`}></span></div>
-                <h4><Link to="/about-us#">{title}</Link></h4>
-                <div className="text">{text}</div>
+                <h4>{title}</h4>
+                <div className="text">{text}</div> 
             </div>
         </>
     );

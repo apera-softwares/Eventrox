@@ -9,7 +9,7 @@ const SingleBannerV1 = ({ banner }) => {
             <div
   className="slide-item"
   style={{
-    backgroundImage: `url(videos/bannner-video.gif)`,
+    backgroundImage: `url(videos/banner-video.gif)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }}

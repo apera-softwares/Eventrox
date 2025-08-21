@@ -56,8 +56,8 @@ const ClientV1 = () => {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title">
-                        <span className="title">Clients</span>
-                        <h2>Our Official Sponsors</h2>
+                        {/* <span className="title">Clients</span> */}
+                        <h2>Our Partners</h2>
                     </div>
 
                     {sponsorsData.length && <SingleClientV1 client={sponsorsData} />}

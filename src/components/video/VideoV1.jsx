@@ -13,10 +13,8 @@ const VideoV1 = () => {
       >
         <div className="auto-container">
           <div className="content-box">
-            <div className="text">WE’RE A LEADING INDUSTRY COMPANY</div>
-            <h2>
-              We Are Always at The <br />
-              Forefront of The Business Conference !
+            <h2 className="text-yellow-800">
+              Step inside last year’s Future of Work HR Conference
             </h2>
             <ModalVideo
               channel="youtube"
