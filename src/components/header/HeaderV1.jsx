@@ -92,7 +92,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/images/logo-new.png" alt="image" />
+                      <img src="/images/logo-white.png" alt="image" />
                     </Link>
                   </div>
                 </>
@@ -100,7 +100,7 @@ const HeaderV1 = ({
                 <>
                   <div className="logo">
                     <Link to="/#">
-                      <img src="/logo-new.png" alt="image" />
+                      <img src="/logo-white.png" alt="image" />
                     </Link>
                   </div>
                 </>
