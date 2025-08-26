@@ -304,6 +304,10 @@ input[type="search"]::-webkit-search-results-decoration {
   transition: all 300ms ease;
 }
 
+.bg-yellow{
+  background-color: #f1e532bf;
+}
+
 /* Button style one */
 .btn-style-one {
   position: relative;
@@ -11510,4 +11514,42 @@ img {
   width: 100%;
   height: 540px;
   margin-bottom: -10px;
+}
+
+
+
+.customPopup{
+  position: fixed;
+
+  left: 20%;
+  top: 20%;
+
+  width: 60%;
+
+  border: 2px solid gray;
+  border-radius: 1em;
+  box-shadow: -2px 5px 5px gray;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #011627;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.customPopup .closeBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: transparent;
+}
+
+.customPopup .closeBtn i{
+  font-size:22px;
+  color: #266992bf;
 }

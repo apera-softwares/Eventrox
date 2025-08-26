@@ -3,17 +3,18 @@ import BannerV1Data from "../../jsonData/banner/BannerV1Data.json";
 import SingleBannerV1 from "./SingleBannerV1";
 import Slider from "react-slick";
 import { API_URL } from "../../apiConfig";
+import CustomModal from "../modal/modal";
 
 const BannerV1 = () => {
   const [eventData, setData] = useState({
     id: 1,
     thumb: "1.jpg",
-    subTitle: "January 20, 2024",
-    title1: "World Digital",
-    title2: "Conference 2023",
-    list1: "5000 Seats",
-    list2: "12 SPEAKERS",
-    list3: "Paulo, California",
+    subTitle: "26 November 2025",
+    title1: "Future of Work HR Conference 2025",
+    title2: "",
+    list1: "150 Seats",
+    list2: "7 SPEAKERS",
+    list3: "Intercontinental Hotel, Manama, Bahrain",
     btnLink: "buy-ticket",
     btnText: "Book Now",
   });
