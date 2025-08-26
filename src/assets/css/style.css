@@ -1020,7 +1020,7 @@ img {
 
 .main-header .main-box {
   position: relative;
-  padding: 25px 0;
+  padding: 10px 0;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -1818,10 +1818,10 @@ img {
 
 .banner-carousel .slide-item {
   position: relative;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 250px 0 200px;
+  padding: 250px 0 200px; */
   text-align: center;
 }
 
@@ -11552,4 +11552,17 @@ img {
 .customPopup .closeBtn i{
   font-size:22px;
   color: #266992bf;
+}
+
+
+.slide-item video {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.slide-item .content-box{
+  position: absolute;
+  top:20%;
+  left:10%;
 }

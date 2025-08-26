@@ -3,9 +3,9 @@ import { NavHashLink as Link } from "react-router-hash-link";
 import SearchPopup from "../others/SearchPopup";
 import HeaderTopV1 from "./HeaderTopV1";
 import HeaderTopV2 from "./HeaderTopV2";
-import MainMenu from "./MainMenu";
+/* import MainMenu from "./MainMenu";
 import ColorsPalate from "../others/ColorsPalate";
-
+ */
 const HeaderV1 = ({
   headerStyle,
   whiteLogo = false,
@@ -163,7 +163,7 @@ const HeaderV1 = ({
           </div>
         </div> */}
       </header>
-      <SearchPopup openSearch={openSearch} searchClose={searchClose} />
+      {/* <SearchPopup openSearch={openSearch} searchClose={searchClose} /> */}
       {/* <ColorsPalate /> */}
     </>
   );
