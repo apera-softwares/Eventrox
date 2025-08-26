@@ -2,6 +2,7 @@ import React from "react";
 import AboutV1Data from "../../jsonData/about/AboutV1Data.json";
 import { HashLink as Link } from "react-router-hash-link";
 import ReactWOW from "react-wow";
+import { API_URL } from "../../apiConfig";
 
 const AboutV1 = () => {
   return (
@@ -25,6 +26,11 @@ const AboutV1 = () => {
                   <h2>Reimagine Work. Redefine HR.</h2>
                   <div className="text">
                     The Future of Work HR Conference in Bahrain brings together CHROs, HR Directors, People & Culture Leads, and Talent Decision-Makers. Together, they address the critical challenges and emerging opportunities shaping the future of work, while exploring innovative strategies to redefine the role of HR in a changing world.
+                  </div>
+                  <div>
+                    <a href={`${API_URL}/media/file/ProperConsultWhitepaper.pdf`}  target="_blank" className="theme-btn btn-style-four">
+                        <span className="btn-title">Download Whitepaper</span>
+                    </a>
                   </div>
                 </div>
                 {/* <ul className="list-style-one">

@@ -2,11 +2,16 @@ import React, { useEffect, useState } from "react";
 import SpeakerV1Data from "../../jsonData/speaker/SpeakerV1Data.json";
 import SingleSpeakerV1 from "./SingleSpeakerV1";
 import { API_URL, BASE_API_URL } from "../../apiConfig";
+import CustomModal from "../modal/modal";
+import BecomeSpeakerForm from "../form/BecomeSpeakerForm";
 
 const SpeakerV1 = () => {
   const [speakersData, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     console.log("Inside sponsor page: useEffect");
@@ -49,14 +54,24 @@ const SpeakerV1 = () => {
 
   return (
     <>
+
       <section
         className="speakers-section"
         style={{ backgroundImage: "url(images/background/speaker_bg.jpg)" }}
       >
+        <CustomModal showPopUp={showPopup} closePopUp={()=>{setShowPopup(false)}}>
+          
+          <BecomeSpeakerForm/>
+          
+        </CustomModal>
+
         <div className="auto-container">
           <div className="sec-title light text-center">
             {/* <span className="title">Speakers</span> */}
-            <h2 className="">Our Past Speakers</h2>
+            <h2 className="">Our Past Speakers</h2> 
+            <button className="theme-btn btn-style-one float-end" style={{backgroundColor: 'yellow', color: 'gray'}} onClick={()=>{setShowPopup(true)}} >
+              <span className="btn-title">Join as a speaker</span>
+            </button>
           </div>
           <div className="row">
             {speakersData.map((speaker) => (

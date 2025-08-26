@@ -16,6 +16,8 @@ import BlogV1 from "../../components/blog/BlogV1";
 import FooterV1 from "../../components/footer/FooterV1";
 import GalleryV2 from "../../components/gallery/GalleryV2";
 
+
+// CURRENT HOME PAGE
 const Home1 = () => {
   return (
     <>

@@ -50,6 +50,10 @@ const RegisterForm = () => {
                 <input type="number" name="phone" className='no-arrows' placeholder="Phone" autoComplete='off' required />
             </div>
             <div className="form-group">
+                <span className="icon fa fa-briefcase"></span>
+                <input type="text" name="companyName" className='no-arrows' placeholder="Company Name" autoComplete='off' required />
+            </div>
+            <div className="form-group">
                 <span className="icon fa fa-edit"></span>
                 <textarea name="message" placeholder="Additional Message" autoComplete='off'></textarea>
             </div>
